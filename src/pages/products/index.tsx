@@ -1,5 +1,17 @@
-export default function Products(){
+import Link from "../../../node_modules/next/link"
+
+export default function Products() {
 	return (
-		<h1> Pagina de Produtos </h1>
+		<>
+			<ul>
+				<li>
+					<Link href="/">
+						<a> ir para Home </a>
+					</Link>
+				</li>
+			</ul>
+			<h1> Pagina de Produtos </h1>
+		</>
+
 	)
 }
