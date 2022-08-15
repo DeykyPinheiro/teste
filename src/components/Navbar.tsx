@@ -1,12 +1,10 @@
 import Link from "../../node_modules/next/link"
-import styles from "../../styles/Home.module.css"
-
-
+import styles from "../../styles/Navbar.module.css"
 
 export default function Navbar() {
 	return (
-		<div className={styles.container}>
-			<ul>
+		<div>
+			<ul className={styles.navbar}>
 				<li>
 					<Link href="/">
 						<a>Home</a>
