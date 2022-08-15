@@ -3,11 +3,11 @@ import styles from "../../styles/Home.module.css"
 
 
 
-export default function Navbar(){
-	return(
+export default function Navbar() {
+	return (
 		<div className={styles.container}>
 			<ul>
-			<li>
+				<li>
 					<Link href="/">
 						<a>Home</a>
 					</Link>
