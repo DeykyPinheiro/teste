@@ -1,15 +1,9 @@
-import Link from "../../../node_modules/next/link"
+import Navbar from "../../components/Navbar"
 
 export default function Products() {
 	return (
 		<>
-			<ul>
-				<li>
-					<Link href="/">
-						<a> ir para Home </a>
-					</Link>
-				</li>
-			</ul>
+			<Navbar />
 			<h1> Pagina de Produtos </h1>
 		</>
 
