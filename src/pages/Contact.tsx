@@ -1,6 +1,6 @@
 import Head from "../../node_modules/next/head";
 
-export default function Exercicio() {
+export default function Contact() {
 	return (
 		<>
 			<Head>
@@ -10,7 +10,7 @@ export default function Exercicio() {
 			</Head>
 			<div>
 				<h1>
-					exercicio text
+					pagina de Contato
 				</h1>
 			</div>
 		</>

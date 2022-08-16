@@ -21,8 +21,8 @@ export default function Navbar() {
 					</Link>
 				</li>
 				<li>
-					<Link href="/exercicio">
-						<a>exercicio</a>
+					<Link href="/Contact">
+						<a>Contact</a>
 					</Link>
 				</li>
 			</ul>
