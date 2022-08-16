@@ -25,6 +25,11 @@ export default function Navbar() {
 						<a>Contact</a>
 					</Link>
 				</li>
+				<li>
+					<Link href="/todos">
+						<a>Todo</a>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
