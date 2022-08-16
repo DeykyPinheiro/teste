@@ -20,6 +20,11 @@ export default function Navbar() {
 						<a>About</a>
 					</Link>
 				</li>
+				<li>
+					<Link href="/exercicio">
+						<a>exercicio</a>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	)
